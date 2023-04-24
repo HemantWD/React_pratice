@@ -1,23 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Button from "./Components/Button";
+import Exercise10 from "./Components/Exercise10";
+import Exercise11 from "./Components/Exercise11";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Button text="Increment" />
+      <Button text="Decrement" />
+      <Button text="Add" />
+      <Exercise10 /> {/* Outputting Consitional Content */}
+      <Exercise11 /> {/* Dynamic Styles */}
     </div>
   );
 }

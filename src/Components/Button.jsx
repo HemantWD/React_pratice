@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 const Button = (props) => {
-  const [count, setCount] = useState(0);
+  z;
   const handleClick = () => {
     if (props.text === "Increment") {
       setCount(count + 1);
